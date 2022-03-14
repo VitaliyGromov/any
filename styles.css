@@ -1,0 +1,166 @@
+/* Тут мы подключили шрифт */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+    background: #f1f1f1;
+
+    font-size: 17px;
+    font-family: 'Syne Mono', monospace;   
+}
+
+.anechkaphoto {
+
+    width: 300px;
+    
+    border-radius: 50%;
+
+}
+
+.info p {
+
+    color: #696969;
+    font-style: italic;
+
+}
+
+.social {
+
+    background: rgb(209, 238, 209);
+
+    padding: 15px;
+
+    border-radius: 28px;
+
+    margin: 20px
+
+}
+
+.container {
+
+    max-width: 750px;
+
+    margin: auto;
+}
+
+.hobbies {
+
+    background: rgb(215, 226, 177);
+
+    padding: 15px;
+
+    border-radius: 28px;
+
+    margin: 20px
+}
+
+.skills {
+
+    background: rgb(236, 198, 172);
+
+    padding: 15px;
+
+    border-radius: 28px;
+
+    margin: 20px;
+
+}
+
+a {
+    text-decoration: none;
+
+    color: black;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+.bg-blue {
+
+    color: rgb(179, 255, 255);
+}
+
+.list li {
+
+    color: #696969;
+}
+
+.learning td {
+
+    padding-bottom: 10px;
+
+    padding-right: 70px;
+}
+
+.learning {
+
+    padding: 15px;
+
+    border-radius: 28px;
+
+    margin: 20px;
+
+    background: rgb(179, 255, 255);
+}
+
+.learning td:nth-child(3) {
+
+    color: #696969;
+}
+
+.contact h1 {
+
+    text-align: center;
+}
+
+.form-group label {
+
+    display: block;
+
+    font-size: 16px;
+
+    color: #868686;
+}
+
+.form-group input, .form-group textarea {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    border: none;
+
+    background: transparent;
+
+    border-bottom: 1px solid #ccc;
+
+    color: black;
+
+    padding: 15px 0 10px;
+
+    outline: none;
+
+    font-family: inherit;
+
+    background-color: none;
+}
+
+.btn {
+
+    background: rgb(116, 116, 116);
+
+    color: #f1f1f1;
+
+    cursor: pointer;
+
+    border: none;
+
+    padding: 10px 10px 10px 10px;
+
+    margin: 8px;
+
+    border-radius: 28px;
+  
+}
